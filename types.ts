@@ -1,4 +1,3 @@
-
 export enum MachineStatus {
   WORK = 'В РАБОТЕ',
   IDLE = 'ПРОСТОЙ',
@@ -34,6 +33,13 @@ export interface Machine {
   tools: string[];
   consumables: string[];
   bbox: BBox;
+}
+
+export interface MachineFlow {
+  id: string;
+  name: string;
+  sequence: string[]; // Array of machine IDs
+  color: string;
 }
 
 export interface AppState {
