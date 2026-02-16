@@ -1,0 +1,7 @@
+{
+  "name": "ZMK Procurement & Shop Floor Monitor",
+  "description": "A high-end industrial shop floor visualization and machine monitoring system for metal construction plants (ZMK). Features interactive floor plans, real-time machine status tracking, and AI-powered operational insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
